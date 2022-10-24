@@ -62,7 +62,7 @@ const loginUser = asyncHandler(async (req, res) => {
 //genrateToken
 
 const generateToken = (id) => {
-    return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: "30d" })
+    return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: "3600" })
 }
 
 //get Currency user

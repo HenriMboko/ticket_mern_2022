@@ -15,7 +15,7 @@ export default function HomePage() {
       <FaQuestionCircle/> Create New Ticket
     </Link>
 
-    <Link to="/new-ticket" className='btn btn-block'>
+    <Link to="/view-ticket" className='btn btn-block'>
       <FaTicketAlt/> View Ticket
     </Link>
     </>

@@ -2,6 +2,7 @@
   "name": "restapi",
   "version": "0.0.0",
   "private": true,
+  "NODE_ENV" : "development",
   "scripts": {
     "start": "node ./bin/www",
     "dev": "npx nodemon ./bin/www",
